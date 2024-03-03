@@ -157,7 +157,6 @@ export class RotatedLabelsColumnChartComponent {
                     inverseColors: true,
                     opacityFrom: 0.85,
                     opacityTo: 0.85,
-                    stops: [50, 0, 100]
                 }
             }
         };

@@ -100,7 +100,6 @@ export class ActiveStudentsComponent {
                     type: "vertical",
                     opacityFrom: 0.85,
                     opacityTo: 0.55,
-                    stops: [0, 100, 100, 100]
                 }
             },
             legend: {

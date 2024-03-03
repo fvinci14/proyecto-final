@@ -71,7 +71,6 @@ export class StrockedCircularGaugeRadialbarChartComponent {
                     inverseColors: false,
                     opacityFrom: 1,
                     opacityTo: 1,
-                    stops: [0, 50, 65, 91]
                 }
             },
             stroke: {

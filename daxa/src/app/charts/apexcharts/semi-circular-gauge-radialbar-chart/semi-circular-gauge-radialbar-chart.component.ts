@@ -74,7 +74,6 @@ export class SemiCircularGaugeRadialbarChartComponent {
                     inverseColors: false,
                     opacityFrom: 1,
                     opacityTo: 1,
-                    stops: [0, 50, 53, 91]
                 }
             },
             labels: ["Average Results"],

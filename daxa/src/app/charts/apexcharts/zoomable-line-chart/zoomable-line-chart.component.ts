@@ -97,7 +97,6 @@ export class ZoomableLineChartComponent {
                 inverseColors: false,
                 opacityFrom: 0.5,
                 opacityTo: 0,
-                stops: [0, 90, 100]
             }
         };
         this.yaxis = {
