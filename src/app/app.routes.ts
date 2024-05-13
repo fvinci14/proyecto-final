@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { EcommerceComponent } from './dashboard/ecommerce/ecommerce.component';
+import { EcommerceComponent } from './dashboard/elearning/elearning.component';
 import { CrmComponent } from './dashboard/crm/crm.component';
 import { ProjectManagementComponent } from './dashboard/project-management/project-management.component';
 import { LmsComponent } from './dashboard/lms/lms.component';

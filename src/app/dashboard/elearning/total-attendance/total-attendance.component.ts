@@ -3,10 +3,10 @@ import { MatCardModule } from '@angular/material/card';
 import { RouterLink } from '@angular/router';
 
 @Component({
-    selector: 'app-total-customers',
+    selector: 'app-total-attendance',
     standalone: true,
     imports: [MatCardModule, RouterLink],
-    templateUrl: './total-customers.component.html',
-    styleUrl: './total-customers.component.scss'
+    templateUrl: './total-attendance.component.html',
+    styleUrl: './total-attendance.component.scss'
 })
-export class TotalCustomersComponent {}
+export class TotalAttendanceComponent {}

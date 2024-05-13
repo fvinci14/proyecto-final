@@ -32,16 +32,16 @@ import { TicketsByTypeComponent } from '../dashboard/help-desk/tickets-by-type/t
 import { RecentCustomerRatingComponent } from '../dashboard/help-desk/recent-customer-rating/recent-customer-rating.component';
 import { ProjectsOverviewComponent } from '../dashboard/project-management/projects-overview/projects-overview.component';
 import { ProjectsRoadmapComponent } from '../dashboard/project-management/projects-roadmap/projects-roadmap.component';
-import { TotalSalesComponent } from '../dashboard/ecommerce/total-sales/total-sales.component';
-import { TotalOrdersComponent } from '../dashboard/ecommerce/total-orders/total-orders.component';
-import { TotalCustomersComponent } from '../dashboard/ecommerce/total-customers/total-customers.component';
-import { TotalRevenueComponent } from '../dashboard/ecommerce/total-revenue/total-revenue.component';
-import { SalesOverviewComponent } from '../dashboard/ecommerce/sales-overview/sales-overview.component';
+import { TotalSalesComponent } from '../dashboard/elearning/total-sales/total-sales.component';
+import { TotalAttendanceComponent } from '../dashboard/elearning/total-attendance/total-attendance.component';
+import { TotalStudentsComponent } from '../dashboard/elearning/total-students/total-students.component';
+import { TotalRevenueComponent } from '../dashboard/elearning/total-revenue/total-revenue.component';
+import { SalesOverviewComponent } from '../dashboard/elearning/sales-overview/sales-overview.component';
 
 @Component({
     selector: 'app-widgets',
     standalone: true,
-    imports: [RouterLink, TicketsOpenComponent, TicketsInProgressComponent, TicketsResolvedComponent, TicketsClosedComponent, NewTicketsCreatedComponent, FirstResponseTimeComponent, AveResolutionTimeComponent, CustomerSatisfactionComponent, MostLeadsComponent, CountryStatsComponent, TasksStatsComponent, EarningReportsComponent, StatsComponent, WorkingScheduleComponent, ProjectsAnalysisComponent, ChatProjectsUserComponent, ToDoListComponent, WelcomeComponent, ActiveCoursesComponent, EnrolledStudentsComponent, CompletionStatusComponent, TimeSpendingsComponent, AverageEnrollmentRateComponent, TodaysCourseComponent, SlaMonitoringComponent, TicketsSolvedAndCleatedComponent, PerformanceOfAgentsComponent, TicketsByChannelComponent, TicketsByTypeComponent, RecentCustomerRatingComponent, ProjectsOverviewComponent, ProjectsRoadmapComponent, TotalSalesComponent, TotalOrdersComponent, TotalCustomersComponent, TotalRevenueComponent, SalesOverviewComponent],
+    imports: [RouterLink, TicketsOpenComponent, TicketsInProgressComponent, TicketsResolvedComponent, TicketsClosedComponent, NewTicketsCreatedComponent, FirstResponseTimeComponent, AveResolutionTimeComponent, CustomerSatisfactionComponent, MostLeadsComponent, CountryStatsComponent, TasksStatsComponent, EarningReportsComponent, StatsComponent, WorkingScheduleComponent, ProjectsAnalysisComponent, ChatProjectsUserComponent, ToDoListComponent, WelcomeComponent, ActiveCoursesComponent, EnrolledStudentsComponent, CompletionStatusComponent, TimeSpendingsComponent, AverageEnrollmentRateComponent, TodaysCourseComponent, SlaMonitoringComponent, TicketsSolvedAndCleatedComponent, PerformanceOfAgentsComponent, TicketsByChannelComponent, TicketsByTypeComponent, RecentCustomerRatingComponent, ProjectsOverviewComponent, ProjectsRoadmapComponent, TotalSalesComponent, TotalAttendanceComponent, TotalStudentsComponent, TotalRevenueComponent, SalesOverviewComponent],
     templateUrl: './widgets.component.html',
     styleUrl: './widgets.component.scss'
 })

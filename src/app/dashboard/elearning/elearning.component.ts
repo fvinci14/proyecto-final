@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { TotalSalesComponent } from './total-sales/total-sales.component';
 import { TotalRevenueComponent } from './total-revenue/total-revenue.component';
-import { TotalCustomersComponent } from './total-customers/total-customers.component';
+import { TotalStudentsComponent } from './total-students/total-students.component';
 import { SalesOverviewComponent } from './sales-overview/sales-overview.component';
-import { TotalOrdersComponent } from './total-orders/total-orders.component';
+import { TotalAttendanceComponent } from './total-attendance/total-attendance.component';
 import { TopSellingProductsComponent } from './top-selling-products/top-selling-products.component';
 import { TransactionsHistoryComponent } from './transactions-history/transactions-history.component';
 import { RecentOrdersComponent } from './recent-orders/recent-orders.component';
@@ -18,10 +18,10 @@ import { NewCustomersThisMonthComponent } from './new-customers-this-month/new-c
 import { RouterLink } from '@angular/router';
 
 @Component({
-    selector: 'app-ecommerce',
+    selector: 'app-elearning',
     standalone: true,
-    imports: [TotalSalesComponent, TotalRevenueComponent, TotalOrdersComponent, TotalCustomersComponent, SalesOverviewComponent, TopSellingProductsComponent, TransactionsHistoryComponent, RecentOrdersComponent, TopSellersComponent, OrderSummaryComponent, RevenueComponent, TopSalesLocationsComponent, AverageDailySalesComponent, ProfitComponent, BestSellerOfTheMonthComponent, NewCustomersThisMonthComponent, RouterLink],
-    templateUrl: './ecommerce.component.html',
-    styleUrl: './ecommerce.component.scss'
+    imports: [TotalSalesComponent, TotalRevenueComponent, TotalAttendanceComponent, TotalStudentsComponent, SalesOverviewComponent, TopSellingProductsComponent, TransactionsHistoryComponent, RecentOrdersComponent, TopSellersComponent, OrderSummaryComponent, RevenueComponent, TopSalesLocationsComponent, AverageDailySalesComponent, ProfitComponent, BestSellerOfTheMonthComponent, NewCustomersThisMonthComponent, RouterLink],
+    templateUrl: './elearning.component.html',
+    styleUrl: './elearning.component.scss'
 })
 export class EcommerceComponent {}

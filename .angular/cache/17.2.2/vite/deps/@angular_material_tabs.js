@@ -2,46 +2,41 @@ import {
   MAT_RIPPLE_GLOBAL_OPTIONS,
   MatCommonModule,
   MatRipple
-} from "./chunk-43TUCTQ6.js";
+} from "./chunk-H6S6KJK3.js";
+import {
+  CdkScrollable,
+  ViewportRuler
+} from "./chunk-DPCZ6ALH.js";
+import {
+  CdkPortal,
+  CdkPortalOutlet,
+  TemplatePortal
+} from "./chunk-CN7VZ7I7.js";
 import {
   animate,
   state,
   style,
   transition,
   trigger
-} from "./chunk-SE7XYMVL.js";
+} from "./chunk-UXRLNUB6.js";
 import {
-  CdkPortal,
-  CdkPortalOutlet,
-  TemplatePortal
-} from "./chunk-TRU4DDI4.js";
-import {
-  CdkScrollable,
-  ViewportRuler
-} from "./chunk-FMKCEK3N.js";
+  Directionality
+} from "./chunk-SQSXNWED.js";
 import {
   CdkMonitorFocus,
   CdkObserveContent,
   FocusKeyManager,
   FocusMonitor
-} from "./chunk-ALIIKKIE.js";
-import {
-  Directionality
-} from "./chunk-YREDVISG.js";
+} from "./chunk-XDGWCUEJ.js";
 import {
   Platform,
   normalizePassiveListenerOptions
-} from "./chunk-VIO4JNRA.js";
+} from "./chunk-PQHCTB5X.js";
 import {
   DOCUMENT,
   NgClass
-} from "./chunk-CRFGUPDV.js";
-import {
-  ENTER,
-  SPACE,
-  hasModifierKey
-} from "./chunk-CJNMZQC3.js";
-import "./chunk-EJBUKSVH.js";
+} from "./chunk-WPQN2D5D.js";
+import "./chunk-QQTEPKUC.js";
 import {
   ANIMATION_MODULE_TYPE,
   Attribute,
@@ -113,12 +108,12 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵviewQuery
-} from "./chunk-HOPEA7NP.js";
+} from "./chunk-UBOVLTYB.js";
+import "./chunk-EEKLJX6I.js";
 import {
   fromEvent,
   merge
-} from "./chunk-SG3BCSKH.js";
-import "./chunk-SAVXX6OM.js";
+} from "./chunk-HHK6Q7EG.js";
 import {
   BehaviorSubject,
   EMPTY,
@@ -134,7 +129,13 @@ import {
   take,
   takeUntil,
   timer
-} from "./chunk-PQ7O3X3G.js";
+} from "./chunk-XUSQUK27.js";
+import "./chunk-AOF462FV.js";
+import {
+  ENTER,
+  SPACE,
+  hasModifierKey
+} from "./chunk-CJNMZQC3.js";
 import "./chunk-PZQZAEDH.js";
 
 // node_modules/@angular/material/fesm2022/tabs.mjs
