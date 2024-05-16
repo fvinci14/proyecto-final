@@ -3,10 +3,10 @@ import { MatCardModule } from '@angular/material/card';
 import { RouterLink } from '@angular/router';
 
 @Component({
-    selector: 'app-total-revenue',
+    selector: 'app-supervised-courses',
     standalone: true,
     imports: [MatCardModule, RouterLink],
-    templateUrl: './total-revenue.component.html',
-    styleUrl: './total-revenue.component.scss'
+    templateUrl: './supervised-courses.component.html',
+    styleUrl: './supervised-courses.component.scss'
 })
-export class TotalRevenueComponent {}
+export class SupervisedCoursesComponent {}

@@ -35,13 +35,13 @@ import { ProjectsRoadmapComponent } from '../dashboard/project-management/projec
 import { TotalSalesComponent } from '../dashboard/elearning/total-sales/total-sales.component';
 import { TotalAttendanceComponent } from '../dashboard/elearning/total-attendance/total-attendance.component';
 import { TotalStudentsComponent } from '../dashboard/elearning/total-students/total-students.component';
-import { TotalRevenueComponent } from '../dashboard/elearning/total-revenue/total-revenue.component';
+import { SupervisedCoursesComponent } from '../dashboard/elearning/supervised-courses/supervised-courses.component';
 import { SalesOverviewComponent } from '../dashboard/elearning/sales-overview/sales-overview.component';
 
 @Component({
     selector: 'app-widgets',
     standalone: true,
-    imports: [RouterLink, TicketsOpenComponent, TicketsInProgressComponent, TicketsResolvedComponent, TicketsClosedComponent, NewTicketsCreatedComponent, FirstResponseTimeComponent, AveResolutionTimeComponent, CustomerSatisfactionComponent, MostLeadsComponent, CountryStatsComponent, TasksStatsComponent, EarningReportsComponent, StatsComponent, WorkingScheduleComponent, ProjectsAnalysisComponent, ChatProjectsUserComponent, ToDoListComponent, WelcomeComponent, ActiveCoursesComponent, EnrolledStudentsComponent, CompletionStatusComponent, TimeSpendingsComponent, AverageEnrollmentRateComponent, TodaysCourseComponent, SlaMonitoringComponent, TicketsSolvedAndCleatedComponent, PerformanceOfAgentsComponent, TicketsByChannelComponent, TicketsByTypeComponent, RecentCustomerRatingComponent, ProjectsOverviewComponent, ProjectsRoadmapComponent, TotalSalesComponent, TotalAttendanceComponent, TotalStudentsComponent, TotalRevenueComponent, SalesOverviewComponent],
+    imports: [RouterLink, TicketsOpenComponent, TicketsInProgressComponent, TicketsResolvedComponent, TicketsClosedComponent, NewTicketsCreatedComponent, FirstResponseTimeComponent, AveResolutionTimeComponent, CustomerSatisfactionComponent, MostLeadsComponent, CountryStatsComponent, TasksStatsComponent, EarningReportsComponent, StatsComponent, WorkingScheduleComponent, ProjectsAnalysisComponent, ChatProjectsUserComponent, ToDoListComponent, WelcomeComponent, ActiveCoursesComponent, EnrolledStudentsComponent, CompletionStatusComponent, TimeSpendingsComponent, AverageEnrollmentRateComponent, TodaysCourseComponent, SlaMonitoringComponent, TicketsSolvedAndCleatedComponent, PerformanceOfAgentsComponent, TicketsByChannelComponent, TicketsByTypeComponent, RecentCustomerRatingComponent, ProjectsOverviewComponent, ProjectsRoadmapComponent, TotalSalesComponent, TotalAttendanceComponent, TotalStudentsComponent, SupervisedCoursesComponent, SalesOverviewComponent],
     templateUrl: './widgets.component.html',
     styleUrl: './widgets.component.scss'
 })
