@@ -28,6 +28,71 @@
             <div class="sidebar-menu">
                 <mat-accordion>
                     <span class="sub-title text-body">
+                        MENÚ PRINCIPAL
+                    </span>
+                    <a routerLink="/" class="sidebar-menu-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <i class="material-symbols-outlined">
+                            dashboard
+                        </i>
+                        <span class="title">
+                            Dashboard
+                        </span>
+                    </a>
+                    <a routerLink="/email" class="sidebar-menu-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <i class="material-symbols-outlined">
+                            email
+                        </i>
+                        <span class="title">
+                            Comunicación
+                        </span>
+                    </a>
+                    <a routerLink="/calendar" class="sidebar-menu-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <i class="material-symbols-outlined">
+                            calendar_today
+                        </i>
+                        <span class="title">
+                            Calendario
+                        </span>
+                    </a>
+                    <a routerLink="/to-do-list" class="sidebar-menu-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <i class="material-symbols-outlined">
+                            school
+                        </i>
+                        <span class="title">
+                            Académico
+                        </span>
+                    </a>
+                    <a routerLink="/lms-page" class="sidebar-menu-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <i class="material-symbols-outlined">
+                            auto_stories
+                        </i>
+                        <span class="title">
+                            Aulas Virtuales
+                        </span>
+                    </a>
+                    <a routerLink="/forms" class="sidebar-menu-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <i class="material-symbols-outlined">
+                            home_storage
+                        </i>
+                        <span class="title">
+                            Autogestión
+                        </span>
+                    </a>
+                    <a routerLink="/users/users-list" class="sidebar-menu-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <i class="material-symbols-outlined">
+                            guardian
+                        </i>
+                        <span class="title">
+                            Usuarios
+                        </span>
+                    </a>
+                    <a routerLink="/authentication/logout" class="sidebar-menu-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <i class="material-symbols-outlined">
+                            logout
+                        </i>
+                        <span class="title">Logout</span>
+                    </a>
+                    <span class="sub-title text-body">
                         MAIN
                     </span>
                     <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = true">

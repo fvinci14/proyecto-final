@@ -33,9 +33,9 @@ import { RecentCustomerRatingComponent } from '../dashboard/help-desk/recent-cus
 import { ProjectsOverviewComponent } from '../dashboard/project-management/projects-overview/projects-overview.component';
 import { ProjectsRoadmapComponent } from '../dashboard/project-management/projects-roadmap/projects-roadmap.component';
 import { TotalSalesComponent } from '../dashboard/elearning/total-sales/total-sales.component';
-import { TotalAttendanceComponent } from '../dashboard/elearning/total-attendance/total-attendance.component';
-import { TotalStudentsComponent } from '../dashboard/elearning/total-students/total-students.component';
-import { SupervisedCoursesComponent } from '../dashboard/elearning/supervised-courses/supervised-courses.component';
+import { TotalAttendanceComponent } from '../dashboard/lms/total-attendance/total-attendance.component';
+import { TotalStudentsComponent } from '../dashboard/lms/total-students/total-students.component';
+import { SupervisedCoursesComponent } from '../dashboard/lms/supervised-courses/supervised-courses.component';
 import { SalesOverviewComponent } from '../dashboard/elearning/sales-overview/sales-overview.component';
 
 @Component({

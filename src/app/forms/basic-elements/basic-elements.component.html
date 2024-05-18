@@ -24,7 +24,7 @@
     <mat-card-header>
         <mat-card-title>
             <h5 class="mt-0 mb-0">
-                Textual Inputs
+                Emisión de certificados
             </h5>
         </mat-card-title>
     </mat-card-header>
@@ -33,93 +33,125 @@
             <div class="row">
                 <div class="col-sm-6">
                     <mat-form-field class="mb-25">
-                        <mat-label>First Name</mat-label>
-                        <input matInput placeholder="Ex. Mateo">
-                    </mat-form-field>
-                </div>
-                <div class="col-sm-6">
-                    <mat-form-field class="mb-25">
-                        <mat-label>Last Name</mat-label>
-                        <input matInput placeholder="Ex. Luca">
-                    </mat-form-field>
-                </div>
-                <div class="col-sm-6">
-                    <mat-form-field class="mb-25">
-                        <mat-label>Email Address</mat-label>
-                        <input matInput placeholder="Ex. hello@daxa.com">
-                    </mat-form-field>
-                </div>
-                <div class="col-sm-6">
-                    <mat-form-field class="mb-25">
-                        <mat-label>Phone</mat-label>
-                        <input matInput placeholder="Ex. +098765432">
-                    </mat-form-field>
-                </div>
-                <div class="col-sm-6">
-                    <mat-form-field class="mb-25">
-                        <mat-label>Address</mat-label>
-                        <input matInput placeholder="Ex. Amsterdam">
-                    </mat-form-field>
-                </div>
-                <div class="col-sm-6">
-                    <mat-form-field class="mb-25">
-                        <mat-label>Country</mat-label>
-                        <input matInput placeholder="Ex. Netherlands">
-                    </mat-form-field>
-                </div>
-                <div class="col-sm-4">
-                    <mat-form-field class="mb-25">
-                        <mat-label>Town/City</mat-label>
+                        <mat-label>Tipo de constancia</mat-label>
                         <mat-select>
-                            <mat-option value="volvo">New York</mat-option>
-                            <mat-option value="saab">Amsterdam</mat-option>
-                            <mat-option value="mercedes">Nalchity</mat-option>
-                            <mat-option value="audi">Beijing</mat-option>
+                            <mat-option value="alumno-regular">Alumno regular</mat-option>
+                            <mat-option value="aprobacion">Aprobación</mat-option>
+                            <mat-option value="profesor-o-maestro">Profesor o maestro</mat-option>
+                            <mat-option value="general">General</mat-option>
+                            <mat-option value="pase">Pase</mat-option>
+                            <mat-option value="titulo-en-tramite">Título en trámite</mat-option>
                         </mat-select>
                     </mat-form-field>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <mat-form-field class="mb-25">
-                        <mat-label>State</mat-label>
-                        <mat-select>
-                            <mat-option value="volvo">Washington</mat-option>
-                            <mat-option value="saab">Utah</mat-option>
-                            <mat-option value="mercedes">Nebraska</mat-option>
-                            <mat-option value="audi">Florida</mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </div>
-                <div class="col-sm-4">
-                    <mat-form-field class="mb-25">
-                        <mat-label>Zip Code</mat-label>
-                        <input matInput placeholder="Ex. 0986">
+                        <mat-label>Nombre y apellido</mat-label>
+                        <input matInput placeholder="Ex. Mateo Pérez">
                     </mat-form-field>
                 </div>
                 <div class="col-sm-12">
-                    <mat-form-field class="textarea">
-                        <mat-label>Description</mat-label>
-                        <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
-                    </mat-form-field>
+                    <button mat-flat-button extended class="mb-25 daxa">
+                        <mat-icon>picture_as_pdf</mat-icon>
+                        Generar constancia
+                    </button>
                 </div>
             </div>
         </form>
     </mat-card-content>
 </mat-card>
-
-<!-- Basic Form -->
-<div class="row">
-    <div class="col-md-6">
-        <mat-card class="daxa-card mb-25 border-radius bg-white border-none d-block">
-            <mat-card-header>
-                <mat-card-title>
-                    <h5 class="mt-0 mb-0">
-                        Basic Form
-                    </h5>
-                </mat-card-title>
-            </mat-card-header>
-            <mat-card-content>
-                <app-basic-form></app-basic-form>
-            </mat-card-content>
-        </mat-card>
-    </div>
-</div>
+<mat-card class="daxa-card mb-25 border-radius bg-white border-none d-block">
+    <mat-card-header>
+        <mat-card-title>
+            <h5 class="mt-0 mb-0">
+                Requerimientos de documentación
+            </h5>
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form>
+            <div class="row">
+                <div class="col-sm-6">
+                    <mat-form-field class="mb-25">
+                        <mat-label>Tipo de documentación</mat-label>
+                        <mat-select>
+                            <mat-option value="acuerdos-pedagogicos">Acuerdos pedagógicos</mat-option>
+                            <mat-option value="planificaciones">Planificaciones</mat-option>
+                            <mat-option value="programas">Programas</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6">
+                    <mat-form-field class="mb-25">
+                        <mat-label>Nombre y apellido</mat-label>
+                        <input matInput placeholder="Ex. Mateo Pérez">
+                    </mat-form-field>
+                </div>
+                <div class="col-md-12">
+                    <mat-card class="caja daxa-card mb-25 bg-white border-none d-block">
+                        <mat-card-content>
+                            <app-simple-fu></app-simple-fu>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </form>
+    </mat-card-content>
+</mat-card>
+<mat-card class="daxa-card mb-25 border-radius bg-white border-none d-block">
+    <mat-card-header>
+        <mat-card-title>
+            <h5 class="mt-0 mb-0">
+                Solicitudes
+            </h5>
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form>
+            <div class="row">
+                <div class="col-sm-6">
+                    <mat-form-field class="mb-25">
+                        <mat-label>Tipo de solicitud</mat-label>
+                        <mat-select>
+                            <mat-option value="retiro-anticipado">Retiro anticipado</mat-option>
+                            <mat-option value="justificacion-inasistencia">Justificación de inasistencia</mat-option>
+                            <mat-option value="soporte-tecnico">Soporte Técnico</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6">
+                    <mat-form-field class="mb-25">
+                        <mat-label>Nombre y apellido</mat-label>
+                        <input matInput placeholder="Ex. Mateo Pérez">
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6">
+                    <mat-form-field class="mb-25">
+                        <mat-label>MM/DD/YYYY</mat-label>
+                        <input matInput [matDatepicker]="picker2">
+                        <mat-datepicker-toggle matIconSuffix [for]="picker2"></mat-datepicker-toggle>
+                        <mat-datepicker #picker2></mat-datepicker>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6">
+                    <mat-form-field class="mb-25">
+                        <mat-label>Nombre y apellido</mat-label>
+                        <input matInput placeholder="Ex. Mateo Pérez">
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-12">
+                    <mat-form-field class="mb-25">
+                        <mat-label>Descripción</mat-label>
+                        <textarea matInput></textarea>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-12">
+                    <button mat-flat-button extended class="mb-25 daxa">
+                        <mat-icon>send</mat-icon>
+                        Solicitar pedido
+                    </button>
+                </div>
+            </div>
+        </form>
+    </mat-card-content>
+</mat-card>

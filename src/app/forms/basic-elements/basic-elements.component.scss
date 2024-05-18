@@ -1,0 +1,7 @@
+.daxa {
+    width: 100%; /* Hacer que el botón sea tan ancho como su contenedor */
+}
+.caja {
+    padding: 0; /* Eliminar el padding de la tarjeta */
+    box-sizing: border-box; /* Asegurar que el padding y el borde de la tarjeta se incluyan en su ancho total */
+}
