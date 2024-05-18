@@ -1,17 +1,14 @@
 <!-- Breadcrumb -->
 <div class="breadcrumb-card mb-25 d-md-flex align-items-center justify-content-between">
-    <h5 class="mb-0">
-        Profile
-    </h5>
     <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
         <li class="breadcrumb-item position-relative">
             <a routerLink="/" class="d-inline-block position-relative">
                 <i class="ri-home-8-line"></i>
-                Dashboard
+                Home
             </a>
         </li>
         <li class="breadcrumb-item position-relative">
-            Profile
+            Nombre de la materia
         </li>
     </ol>
 </div>
@@ -23,74 +20,39 @@
     [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
     <mat-card-content>
-        <div class="cover-image position-relative border-top-radius">
-            <img src="assets/images/profile-big-cover.jpg" class="border-top-radius" alt="cover-image">
-            <button type="button" mat-button class="edit-btn" [matMenuTriggerFor]="editCoverPhotoMenu">
-                Edit Cover Photo
-            </button>
-            <mat-menu #editCoverPhotoMenu="matMenu" class="card-header-menu" xPosition="after">
-                <button mat-menu-item>
-                    Upload Photo
-                </button>
-                <button mat-menu-item>
-                    Reposition
-                </button>
-                <button mat-menu-item>
-                    Remove
-                </button>
-            </mat-menu>
+        <div class="cover-image-container position-relative border-top-radius">
+            <img src="assets/images/profile-big-cover.jpg" class="cover-image border-top-radius" alt="cover-image">
+            <div class="header-content">
+                <h1 class="class-title">Nombre de la materia</h1>
+            </div>
         </div>
         <div class="profile-content">
             <div class="d-md-flex align-items-end justify-content-between">
-                <div class="d-md-flex align-items-end">
-                    <div class="image position-relative">
-                        <img src="assets/images/profile.jpg" class="rounded-circle" alt="profile-image">
-                        <button type="button" mat-button class="edit-btn" [matMenuTriggerFor]="editProfilePhotoMenu">
-                            <i class="material-symbols-outlined">
-                                photo_camera
-                            </i>
-                        </button>
-                        <mat-menu #editProfilePhotoMenu="matMenu" class="card-header-menu" xPosition="after">
-                            <button mat-menu-item>
-                                See Photo
-                            </button>
-                            <button mat-menu-item>
-                                Upload Photo
-                            </button>
-                            <button mat-menu-item>
-                                Remove
-                            </button>
-                        </mat-menu>
-                    </div>
-                    <div class="title">
-                        <span class="d-block fw-medium">
-                            Micheal Collins
-                        </span>
-                        <span class="d-block text-body">
-                            micheal&#64;gmail.com
-                        </span>
-                    </div>
-                </div>
                 <div class="btn-box">
                     <button mat-button>
-                        Share Profile
+                        Personalize
                     </button>
                 </div>
             </div>
             <ul class="nav-links text-center pl-0 mb-0 list-unstyled">
                 <li class="d-inline-block">
                     <a routerLink="/profile" class="d-block position-relative" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                        Profile
+                        Novedades
                     </a>
                 </li>
                 <li class="d-inline-block">
                     <a routerLink="/profile/teams" class="d-block position-relative" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                        Team
+                        Trabajo en clase
+                    </a>
+                </li>
+                <li class="d-inline-block">
+                    <a routerLink="/profile/teams" class="d-block position-relative" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        Calificaciones
                     </a>
                 </li>
                 <li class="d-inline-block">
                     <a routerLink="/profile/projects" class="d-block position-relative" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                        Projects
+                        Asistencia
                     </a>
                 </li>
             </ul>

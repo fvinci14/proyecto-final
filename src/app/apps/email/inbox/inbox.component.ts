@@ -15,11 +15,13 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { SidebarComponent } from '../sidebar/sidebar.component';
 import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
+import { ButtonsComponent } from '../../../ui-elements/buttons/buttons.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
     selector: 'app-inbox',
     standalone: true,
-    imports: [MatCardModule, MatMenuModule, MatButtonModule, RouterLink, MatTableModule, MatCheckboxModule, MatTooltipModule, MatFormFieldModule, MatInputModule, MatSelectModule, MatDatepickerModule, MatNativeDateModule, SidebarComponent, MatPaginatorModule],
+    imports: [MatCardModule, MatMenuModule, MatIconModule, ButtonsComponent, MatButtonModule, RouterLink, MatTableModule, MatCheckboxModule, MatTooltipModule, MatFormFieldModule, MatInputModule, MatSelectModule, MatDatepickerModule, MatNativeDateModule, SidebarComponent, MatPaginatorModule],
     templateUrl: './inbox.component.html',
     styleUrl: './inbox.component.scss'
 })
