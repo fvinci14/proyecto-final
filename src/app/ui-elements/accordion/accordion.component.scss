@@ -2,55 +2,57 @@
     .accordion-item {
         display: block;
         border: solid 1px #eeeeee;
+        margin-bottom: 20px;
 
-        &:first-child {
-            border: {
-                top: {
-                    left-radius: 4px;
-                    right-radius: 4px;
-                }
-            };
-        }
-        &:last-child {
-            border: {
-                bottom: {
-                    left-radius: 4px;
-                    right-radius: 4px;
-                }
-            };
-        }
-    }
-    .accordion-item + .accordion-item {
-        border-top: none;
-    }
-    .accordion-item-header {
-        padding: 15px;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+  
+      .accordion-item-header {
         display: flex;
-        align-content: center;
+        align-items: center;
         justify-content: space-between;
-
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
         &:hover {
-            cursor: pointer;
-            background-color: #eeeeee;
+          background-color: #f8f8f8;
         }
-    }
-    .accordion-item-body {
+  
+        mat-icon {
+          margin-right: 15px;
+        }
+  
+        .accordion-item-title-container {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          margin-right: 10px;
+        }
+  
+        .accordion-item-title {
+          font-weight: bold;
+        }
+  
+        .accordion-item-date {
+          font-size: 0.85em;
+          color: #6c757d;
+        }
+  
+        .ri-arrow-down-s-line {
+          transition: transform 0.3s ease;
+        }
+  
+        .rotated {
+          transform: rotate(-180deg);
+        }
+      }
+  
+      .accordion-item-body {
         padding: 15px;
-        border-top: solid 1px #eeeeee;
+        background-color: #ffffff;
+      }
     }
-}
-.component-dark-theme {
-    .accordion {
-        .accordion-item {
-            border-color: rgba(255, 255, 255, 0.09);
-        }
-        .accordion-item-header {
-            &:hover {
-                background-color: var(--blackColor);
-            }
-        }
-        .accordion-item-body {
-            border-color: rgba(255, 255, 255, 0.09);
-        }
-    }
-}
+  }
+  
