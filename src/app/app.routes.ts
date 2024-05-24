@@ -57,7 +57,7 @@ import { HdTicketDetailsComponent } from './pages/help-desk-page/hd-ticket-detai
 import { HdAgentsComponent } from './pages/help-desk-page/hd-agents/hd-agents.component';
 import { HdReportsComponent } from './pages/help-desk-page/hd-reports/hd-reports.component';
 import { EOrderTrackingComponent } from './pages/ecommerce-page/e-order-tracking/e-order-tracking.component';
-import { CalendarComponent } from './apps/calendar/calendar.component';
+import { CalendarioComponent } from './aplicacion/calendario/calendario.component';
 import { ContactsComponent } from './apps/contacts/contacts.component';
 import { ToDoListComponent } from './apps/to-do-list/to-do-list.component';
 import { ChatComponent } from './apps/chat/chat.component';
@@ -102,22 +102,22 @@ import { PProjectsComponent } from './pages/profile-page/p-projects/p-projects.c
 import { IconsComponent } from './icons/icons.component';
 import { MaterialSymbolsComponent } from './icons/material-symbols/material-symbols.component';
 import { RemixiconComponent } from './icons/remixicon/remixicon.component';
-import { AuthenticationComponent } from './authentication/authentication.component';
-import { SignInComponent } from './authentication/sign-in/sign-in.component';
-import { SignUpComponent } from './authentication/sign-up/sign-up.component';
-import { ForgotPasswordComponent } from './authentication/forgot-password/forgot-password.component';
-import { ResetPasswordComponent } from './authentication/reset-password/reset-password.component';
-import { LockScreenComponent } from './authentication/lock-screen/lock-screen.component';
-import { LogoutComponent } from './authentication/logout/logout.component';
-import { ConfirmEmailComponent } from './authentication/confirm-email/confirm-email.component';
+import { AutenticacionComponent } from './aplicacion/autenticacion/autenticacion.component';
+import { SignInComponent } from './aplicacion/autenticacion/sign-in/sign-in.component';
+import { SignUpComponent } from './aplicacion/autenticacion/sign-up/sign-up.component';
+import { ForgotPasswordComponent } from './aplicacion/autenticacion/forgot-password/forgot-password.component';
+import { ResetPasswordComponent } from './aplicacion/autenticacion/reset-password/reset-password.component';
+import { LockScreenComponent } from './aplicacion/autenticacion/lock-screen/lock-screen.component';
+import { LogoutComponent } from './aplicacion/autenticacion/logout/logout.component';
+import { ConfirmEmailComponent } from './aplicacion/autenticacion/confirm-email/confirm-email.component';
 import { MembersPageComponent } from './pages/members-page/members-page.component';
 import { ProfileSettingsComponent } from './pages/social-page/profile-settings/profile-settings.component';
-import { SettingsComponent } from './settings/settings.component';
-import { AccountSettingsComponent } from './settings/account-settings/account-settings.component';
-import { ChangePasswordComponent } from './settings/change-password/change-password.component';
-import { ConnectionsComponent } from './settings/connections/connections.component';
-import { PrivacyPolicyComponent } from './settings/privacy-policy/privacy-policy.component';
-import { TermsConditionsComponent } from './settings/terms-conditions/terms-conditions.component';
+import { SettingsComponent } from './aplicacion/settings/settings.component';
+import { AccountSettingsComponent } from './aplicacion/settings/account-settings/account-settings.component';
+import { ChangePasswordComponent } from './aplicacion/settings/change-password/change-password.component';
+import { ConnectionsComponent } from './aplicacion/settings/connections/connections.component';
+import { PrivacyPolicyComponent } from './aplicacion/settings/privacy-policy/privacy-policy.component';
+import { TermsConditionsComponent } from './aplicacion/settings/terms-conditions/terms-conditions.component';
 import { MapsPageComponent } from './pages/maps-page/maps-page.component';
 import { InternalErrorComponent } from './common/internal-error/internal-error.component';
 import { BlankPageComponent } from './blank-page/blank-page.component';
@@ -133,7 +133,7 @@ import { TablesComponent } from './tables/tables.component';
 import { BasicTableComponent } from './tables/basic-table/basic-table.component';
 import { DataTableComponent } from './tables/data-table/data-table.component';
 import { WidgetsComponent } from './widgets/widgets.component';
-import { MyProfileComponent } from './my-profile/my-profile.component';
+import { MyProfileComponent } from './aplicacion/my-profile/my-profile.component';
 import { UiElementsComponent } from './ui-elements/ui-elements.component';
 import { AlertsComponent } from './ui-elements/alerts/alerts.component';
 import { AutocompleteComponent } from './ui-elements/autocomplete/autocomplete.component';
@@ -187,6 +187,30 @@ import { FileUploaderComponent } from './forms/file-uploader/file-uploader.compo
 import { FaqPageComponent } from './pages/faq-page/faq-page.component';
 import { RatioComponent } from './ui-elements/ratio/ratio.component';
 import { UtilitiesComponent } from './ui-elements/utilities/utilities.component';
+import { AcademicoComponent } from './aplicacion/academico/academico.component';
+import { AsistenciaEComponent } from './aplicacion/academico/asistencia-e/asistencia-e.component';
+import { CalificacionesEComponent } from './aplicacion/academico/calificaciones-e/calificaciones-e.component';
+import { HistorialComponent } from './aplicacion/academico/historial/historial.component';
+import { AulasVirtualesComponent } from './aplicacion/aulas-virtuales/aulas-virtuales.component';
+import { AsistenciaDComponent } from './aplicacion/aulas-virtuales/asistencia-d/asistencia-d.component';
+import { CalificacionesDComponent } from './aplicacion/aulas-virtuales/calificaciones-d/calificaciones-d.component';
+import { ListadoCursosComponent } from './aplicacion/aulas-virtuales/listado-cursos/listado-cursos.component';
+import { NovedadesComponent } from './aplicacion/aulas-virtuales/novedades/novedades.component';
+import { TrabajoEnClaseComponent } from './aplicacion/aulas-virtuales/trabajo-en-clase/trabajo-en-clase.component';
+import { TutorComponent } from './aplicacion/aulas-virtuales/tutor/tutor.component';
+import { AutogestionComponent } from './aplicacion/autogestion/autogestion.component';
+import { CargaComponent } from './aplicacion/autogestion/carga/carga.component';
+import { SolicitudComponent } from './aplicacion/autogestion/solicitud/solicitud.component';
+import { DescargaComponent } from './aplicacion/autogestion/descarga/descarga.component';
+import { ComponerComponent } from './aplicacion/comunicacion/componer/componer.component';
+import { LeerComponent } from './aplicacion/comunicacion/leer/leer.component';
+import { ListadoComunicadosComponent } from './aplicacion/comunicacion/listado-comunicados/listado-comunicados.component';
+import { UsuariosComponent } from './aplicacion/usuarios/usuarios.component';
+import { ListadoUsuariosComponent } from './aplicacion/usuarios/listado-usuarios/listado-usuarios.component';
+import { AltaComponent } from './aplicacion/usuarios/alta/alta.component';
+import { BajaComponent } from './aplicacion/usuarios/baja/baja.component';
+import { ModificacionComponent } from './aplicacion/usuarios/modificacion/modificacion.component';
+import { ComunicacionComponent } from './aplicacion/comunicacion/comunicacion.component';
 
 export const routes: Routes = [
     {path: '', component: EcommerceComponent},
@@ -195,10 +219,72 @@ export const routes: Routes = [
     {path: 'lms', component: LmsComponent},
     {path: 'help-desk', component: HelpDeskComponent},
     {path: 'to-do-list', component: ToDoListComponent},
-    {path: 'calendar', component: CalendarComponent},
+    {path: 'calendario', component: CalendarioComponent},
     {path: 'contacts', component: ContactsComponent},
     {path: 'chat', component: ChatComponent},
     {path: 'kanban-board', component: KanbanBoardComponent},
+    {
+        path: 'academico',
+        component: AcademicoComponent,
+        children: [
+            {path: '', component: AsistenciaEComponent},
+            {path: 'calificaciones-e', component: CalificacionesEComponent},
+            {path: 'historial', component: HistorialComponent}
+        ]
+    },
+    {
+        path: 'aulas-virtuales',
+        component: AulasVirtualesComponent,
+        children: [
+            {path: '', component: ListadoCursosComponent},
+            {path: 'asistencia-d', component: AsistenciaDComponent},
+            {path: 'calificaciones-d', component: CalificacionesDComponent},
+            {path: 'novedades', component: NovedadesComponent},
+            {path: 'trabajo-en-clase', component: TrabajoEnClaseComponent},
+            {path: 'tutor', component: TutorComponent}
+        ]
+    },
+    {
+        path: 'autenticacion',
+        component: AutenticacionComponent,
+        children: [
+            {path: '', component: SignInComponent},
+            {path: 'sign-up', component: SignUpComponent},
+            {path: 'forgot-password', component: ForgotPasswordComponent},
+            {path: 'reset-password', component: ResetPasswordComponent},
+            {path: 'lock-screen', component: LockScreenComponent},
+            {path: 'confirm-email', component: ConfirmEmailComponent},
+            {path: 'logout', component: LogoutComponent}
+        ]
+    },
+    {
+        path: 'autogestion',
+        component: AutogestionComponent,
+        children: [
+            {path: '', component: CargaComponent},
+            {path: 'descarga', component: DescargaComponent},
+            {path: 'solicitud', component: SolicitudComponent}
+        ]
+    },
+    {
+        path: 'comunicacion',
+        component: ComunicacionComponent,
+        children: [
+            {path: '', component: ListadoComunicadosComponent},
+            {path: 'leer', component: LeerComponent},
+            {path: 'componer', component: ComponerComponent}
+        ]
+    },
+    {
+        path: 'usuarios',
+        component: UsuariosComponent,
+        children: [
+            {path: '', component: ListadoUsuariosComponent},
+            {path: 'alta', component: AltaComponent},
+            {path: 'baja', component: BajaComponent},
+            {path: 'modificacion', component: ModificacionComponent}
+        ]
+    },
     {
         path: 'file-manager',
         component: FileManagerComponent,
@@ -363,19 +449,6 @@ export const routes: Routes = [
         children: [
             {path: '', component: MaterialSymbolsComponent},
             {path: 'remixicon', component: RemixiconComponent}
-        ]
-    },
-    {
-        path: 'authentication',
-        component: AuthenticationComponent,
-        children: [
-            {path: '', component: SignInComponent},
-            {path: 'sign-up', component: SignUpComponent},
-            {path: 'forgot-password', component: ForgotPasswordComponent},
-            {path: 'reset-password', component: ResetPasswordComponent},
-            {path: 'lock-screen', component: LockScreenComponent},
-            {path: 'confirm-email', component: ConfirmEmailComponent},
-            {path: 'logout', component: LogoutComponent}
         ]
     },
     {path: 'my-profile', component: MyProfileComponent},
