@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatButtonModule } from '@angular/material/button';
-import { ButtonsComponent } from '../../ui-elements/buttons/buttons.component';
+import { ButtonsComponent } from '../../aplicacion/ui-elements/buttons/buttons.component';
 import { FileUploaderComponent } from '../file-uploader/file-uploader.component';
 import { MatIcon } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';

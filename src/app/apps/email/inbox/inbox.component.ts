@@ -15,7 +15,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { SidebarComponent } from '../sidebar/sidebar.component';
 import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
-import { ButtonsComponent } from '../../../ui-elements/buttons/buttons.component';
+import { ButtonsComponent } from '../../../aplicacion/ui-elements/buttons/buttons.component';
 import { MatIconModule } from '@angular/material/icon';
 
 @Component({

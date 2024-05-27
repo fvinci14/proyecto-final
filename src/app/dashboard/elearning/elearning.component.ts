@@ -22,7 +22,7 @@ import { TicketsInProgressComponent } from "../help-desk/tickets-in-progress/tic
 import { TicketsResolvedComponent } from "../help-desk/tickets-resolved/tickets-resolved.component";
 import { TicketsClosedComponent } from "../help-desk/tickets-closed/tickets-closed.component";
 import { AccreditedStudentsComponent } from "../lms/accredited-students/accredited-students.component";
-import { CardsComponent } from '../../ui-elements/cards/cards.component';
+import { CardsComponent } from '../../aplicacion/ui-elements/cards/cards.component';
 import { MatCardModule } from '@angular/material/card';
 import { Cta1Component } from "./cta1/cta1.component";
 import { WelcomeComponent } from "../lms/welcome/welcome.component";

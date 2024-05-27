@@ -1,7 +1,7 @@
 import {
   MAT_FORM_FIELD,
   MatFormField
-} from "./chunk-M5FJN6NT.js";
+} from "./chunk-KGTEA77F.js";
 import {
   MAT_OPTGROUP,
   MAT_OPTION_PARENT_COMPONENT,
@@ -12,19 +12,15 @@ import {
   MatOptionSelectionChange,
   _countGroupLabelsBeforeOption,
   _getOptionScrollPosition
-} from "./chunk-H6S6KJK3.js";
+} from "./chunk-6QKQAVAJ.js";
 import {
   Overlay,
   OverlayConfig,
   OverlayModule
-} from "./chunk-2DHD4WCP.js";
-import {
-  CdkScrollableModule,
-  ViewportRuler
-} from "./chunk-DPCZ6ALH.js";
+} from "./chunk-SAFIXZTT.js";
 import {
   TemplatePortal
-} from "./chunk-CN7VZ7I7.js";
+} from "./chunk-TRU4DDI4.js";
 import {
   animate,
   group,
@@ -32,29 +28,41 @@ import {
   style,
   transition,
   trigger
-} from "./chunk-UXRLNUB6.js";
+} from "./chunk-SE7XYMVL.js";
+import {
+  CdkScrollableModule,
+  ViewportRuler
+} from "./chunk-FMKCEK3N.js";
 import {
   NG_VALUE_ACCESSOR
-} from "./chunk-O7HM5FLS.js";
+} from "./chunk-DDOUE2ML.js";
 import {
   Directionality
-} from "./chunk-SQSXNWED.js";
+} from "./chunk-YREDVISG.js";
 import {
   ActiveDescendantKeyManager,
   addAriaReferencedId,
   removeAriaReferencedId
-} from "./chunk-XDGWCUEJ.js";
+} from "./chunk-ALIIKKIE.js";
 import {
   Platform,
   _getEventTarget,
   coerceStringArray
-} from "./chunk-PQHCTB5X.js";
+} from "./chunk-VIO4JNRA.js";
 import {
   CommonModule,
   DOCUMENT,
   NgClass
-} from "./chunk-WPQN2D5D.js";
-import "./chunk-QQTEPKUC.js";
+} from "./chunk-CRFGUPDV.js";
+import {
+  DOWN_ARROW,
+  ENTER,
+  ESCAPE,
+  TAB,
+  UP_ARROW,
+  hasModifierKey
+} from "./chunk-CJNMZQC3.js";
+import "./chunk-EJBUKSVH.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -105,13 +113,13 @@ import {
   ɵɵrestoreView,
   ɵɵtemplate,
   ɵɵviewQuery
-} from "./chunk-UBOVLTYB.js";
-import "./chunk-EEKLJX6I.js";
+} from "./chunk-HOPEA7NP.js";
 import {
   defer,
   fromEvent,
   merge
-} from "./chunk-HHK6Q7EG.js";
+} from "./chunk-SG3BCSKH.js";
+import "./chunk-SAVXX6OM.js";
 import {
   Subject,
   Subscription,
@@ -123,16 +131,7 @@ import {
   switchMap,
   take,
   tap
-} from "./chunk-XUSQUK27.js";
-import "./chunk-AOF462FV.js";
-import {
-  DOWN_ARROW,
-  ENTER,
-  ESCAPE,
-  TAB,
-  UP_ARROW,
-  hasModifierKey
-} from "./chunk-CJNMZQC3.js";
+} from "./chunk-PQ7O3X3G.js";
 import "./chunk-PZQZAEDH.js";
 
 // node_modules/@angular/material/fesm2022/autocomplete.mjs
