@@ -1,27 +1,31 @@
-.custom-margin-bottom {
-    margin-bottom: 1rem;
-}
+.daxa-card {
+    margin: 0 auto;
+    padding: 0 15px; // Ajuste del padding para dispositivos móviles
+  }
+  
+  .custom-margin-bottom {
+    margin-bottom: 15px; // Ajuste del margen inferior
+  }
 
-.full-width {
-    width: 100%;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.justify-content-between {
-    justify-content: space-between;
-}
-
-.flex-fill {
-    flex: 1;
-}
-
-.mr-2 {
-    margin-right: 0.5rem;
-}
-
-.ml-2 {
-    margin-left: 0.5rem;
-}
+  @media (max-width: 767px) {
+    .daxa-card {
+      padding: 0 10px; // Ajuste adicional para pantallas más pequeñas
+    }
+  
+    .full-width {
+      width: 100%;
+    }
+  
+    .asistencia-table {
+      overflow-x: auto;
+    }
+  
+    mat-form-field {
+      width: 100%;
+    }
+  }
+    /* Agrega espacio entre los filtros de búsqueda y el encabezado de la tabla */
+  .mat-paginator {
+    margin-top: 10px;
+  }
+  

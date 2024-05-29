@@ -5,8 +5,8 @@
         <div class="col-12 mb-4 custom-margin-bottom">
             <h5>Total de Inasistencias: {{ totalInasistencias }}</h5>
         </div>
-        <div class="col-12 d-flex justify-content-between w-100 custom-margin-bottom">
-            <div class="col-6 flex-fill mr-2">
+        <div class="col-12 d-flex justify-content-between custom-margin-bottom">
+            <div class="col-6">
                 <mat-form-field appearance="fill" class="full-width">
                     <mat-label>Filtrar por tipo</mat-label>
                     <mat-select (selectionChange)="filterByType($event.value)" [(value)]="selectedType">
@@ -17,7 +17,7 @@
                     </mat-select>
                 </mat-form-field>       
             </div>
-            <div class="col-6 flex-fill ml-2">
+            <div class="col-6">
                 <mat-form-field class="full-width">
                     <mat-label>Filtrar por fecha</mat-label>
                     <input matInput [matDatepicker]="picker" (dateChange)="filterByDate($event)">
@@ -30,7 +30,7 @@
     <mat-card-content>
         <div class="row">
             <div class="col-12 asistencia-table">
-                <div class="table-responsive custom-margin-bottom">
+                <div class="table-responsive custom-margin-bottom table-header">
                     <table mat-table [dataSource]="dataSource">
     
                         <!-- Parte Column -->
@@ -67,7 +67,7 @@
     
                     </table>
                 </div>
-                <mat-paginator [pageSizeOptions]="[10, 20, 30]" showFirstLastButtons></mat-paginator>
+                <mat-paginator class="mat-paginator" [pageSizeOptions]="[10, 20, 30]" showFirstLastButtons></mat-paginator>
             </div>
         </div>
     </mat-card-content>
