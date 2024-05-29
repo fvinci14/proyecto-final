@@ -5,8 +5,8 @@
         <div class="col-12 mb-4 custom-margin-bottom">
             <h5>Total de Inasistencias: {{ totalInasistencias }}</h5>
         </div>
-        <div class="d-flex justify-content-between w-100 custom-margin-bottom">
-            <div class="flex-fill mr-2">
+        <div class="col-12 d-flex justify-content-between w-100 custom-margin-bottom">
+            <div class="col-6 flex-fill mr-2">
                 <mat-form-field appearance="fill" class="full-width">
                     <mat-label>Filtrar por tipo</mat-label>
                     <mat-select (selectionChange)="filterByType($event.value)" [(value)]="selectedType">
@@ -17,7 +17,7 @@
                     </mat-select>
                 </mat-form-field>       
             </div>
-            <div class="flex-fill ml-2">
+            <div class="col-6 flex-fill ml-2">
                 <mat-form-field class="full-width">
                     <mat-label>Filtrar por fecha</mat-label>
                     <input matInput [matDatepicker]="picker" (dateChange)="filterByDate($event)">
