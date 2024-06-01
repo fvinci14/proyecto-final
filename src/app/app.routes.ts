@@ -192,12 +192,7 @@ import { AsistenciaEComponent } from './aplicacion/academico/asistencia-e/asiste
 import { CalificacionesEComponent } from './aplicacion/academico/calificaciones-e/calificaciones-e.component';
 import { HistorialComponent } from './aplicacion/academico/historial/historial.component';
 import { AulasVirtualesComponent } from './aplicacion/aulas-virtuales/aulas-virtuales.component';
-import { AsistenciaDComponent } from './aplicacion/aulas-virtuales/asistencia-d/asistencia-d.component';
-import { CalificacionesDComponent } from './aplicacion/aulas-virtuales/calificaciones-d/calificaciones-d.component';
-import { ListadoCursosComponent } from './aplicacion/aulas-virtuales/listado-cursos/listado-cursos.component';
-import { NovedadesComponent } from './aplicacion/aulas-virtuales/novedades/novedades.component';
-import { TrabajoEnClaseComponent } from './aplicacion/aulas-virtuales/trabajo-en-clase/trabajo-en-clase.component';
-import { TutorComponent } from './aplicacion/aulas-virtuales/tutor/tutor.component';
+import { TutorComponent } from './aplicacion/aulas-virtuales/materia/tutor/tutor.component';
 import { AutogestionComponent } from './aplicacion/autogestion/autogestion.component';
 import { CargaComponent } from './aplicacion/autogestion/carga/carga.component';
 import { SolicitudComponent } from './aplicacion/autogestion/solicitud/solicitud.component';
@@ -211,6 +206,8 @@ import { AltaComponent } from './aplicacion/usuarios/alta/alta.component';
 import { BajaComponent } from './aplicacion/usuarios/baja/baja.component';
 import { ModificacionComponent } from './aplicacion/usuarios/modificacion/modificacion.component';
 import { ComunicacionComponent } from './aplicacion/comunicacion/comunicacion.component';
+import { ListadoMateriasComponent } from './aplicacion/aulas-virtuales/listado-materias/listado-materias.component';
+import { MateriaComponent } from './aplicacion/aulas-virtuales/materia/materia.component';
 
 export const routes: Routes = [
     {path: '', component: EcommerceComponent},
@@ -236,12 +233,8 @@ export const routes: Routes = [
         path: 'aulas-virtuales',
         component: AulasVirtualesComponent,
         children: [
-            {path: '', component: ListadoCursosComponent},
-            {path: 'asistencia-d', component: AsistenciaDComponent},
-            {path: 'calificaciones-d', component: CalificacionesDComponent},
-            {path: 'novedades', component: NovedadesComponent},
-            {path: 'trabajo-en-clase', component: TrabajoEnClaseComponent},
-            {path: 'tutor', component: TutorComponent}
+            {path: '', component: ListadoMateriasComponent},
+            {path: 'materia/:id', component: MateriaComponent},
         ]
     },
     {
