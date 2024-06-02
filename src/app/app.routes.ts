@@ -208,6 +208,12 @@ import { ModificacionComponent } from './aplicacion/usuarios/modificacion/modifi
 import { ComunicacionComponent } from './aplicacion/comunicacion/comunicacion.component';
 import { ListadoMateriasComponent } from './aplicacion/aulas-virtuales/listado-materias/listado-materias.component';
 import { MateriaComponent } from './aplicacion/aulas-virtuales/materia/materia.component';
+import { ContenidosComponent } from './aplicacion/aulas-virtuales/materia/contenidos/contenidos.component';
+import { PanelDocenteComponent } from './aplicacion/aulas-virtuales/materia/panel-docente/panel-docente.component';
+import { AsistenciaMateriaComponent } from './aplicacion/aulas-virtuales/materia/panel-docente/asistencia-materia/asistencia-materia.component';
+import { ComunicadosComponent } from './aplicacion/aulas-virtuales/materia/panel-docente/comunicados/comunicados.component';
+import { LibroTemasComponent } from './aplicacion/aulas-virtuales/materia/panel-docente/libro-temas/libro-temas.component';
+import { ProcesosEvaluativosComponent } from './aplicacion/aulas-virtuales/materia/panel-docente/procesos-evaluativos/procesos-evaluativos.component';
 
 export const routes: Routes = [
     {path: '', component: EcommerceComponent},
@@ -234,7 +240,16 @@ export const routes: Routes = [
         component: AulasVirtualesComponent,
         children: [
             {path: '', component: ListadoMateriasComponent},
-            {path: 'materia/:id', component: MateriaComponent},
+            {path: 'materia/:id', component: MateriaComponent, children: [
+                {path: '', component: ContenidosComponent},
+                {path: 'panel-docente', component: PanelDocenteComponent, children: [
+                    {path: '', component: AsistenciaMateriaComponent},
+                    {path: 'comunicados', component: ComunicadosComponent},
+                    {path: 'libro-temas', component: LibroTemasComponent},
+                    {path: 'procesos-evaluativos', component: ProcesosEvaluativosComponent}
+                ]},
+                {path: 'tutor', component: TutorComponent}
+            ]}
         ]
     },
     {

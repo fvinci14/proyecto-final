@@ -1,0 +1,308 @@
+[
+    {
+      "id": "1",
+      "nombre": "Matemáticas",
+      "curso": "1A",
+      "nivel": "Primario",
+      "contenidos": [
+        {
+          "icono": "assignment",
+          "titulo": "Números Naturales",
+          "fecha": "2024-04-01",
+          "descripcion": "Introducción a los números naturales y sus propiedades."
+        },
+        {
+          "icono": "book",
+          "titulo": "Operaciones Básicas",
+          "fecha": "2024-04-01",
+          "descripcion": "Suma, resta, multiplicación y división."
+        }
+      ],
+      "estudiantes": [
+        {"nombre": "Juan", "apellido": "Pérez"},
+        {"nombre": "María", "apellido": "Gómez"},
+        {"nombre": "Carlos", "apellido": "Rodríguez"}
+      ],
+      "asistencia": [
+        {
+          "fecha": "2024-05-01",
+          "presentes": 25,
+          "ausentes": 2,
+          "alumnos_ausentes": ["María Gómez", "Carlos Rodríguez"]
+        }
+      ],
+      "comunicados": [
+        {
+          "titulo": "Examen Parcial",
+          "fecha": "2024-05-10",
+          "dirigido_a": "todos",
+          "descripcion": "Se informa que el examen parcial se realizará el 20 de mayo."
+        }
+      ],
+      "temas": [
+        {
+          "nro_de_clase": 1,
+          "fecha": "2024-04-01",
+          "tipo_de_clase": "diagnostico",
+          "contenidos_vistos": "Números Naturales",
+          "actividades": "Ejercicios de reconocimiento de números."
+        }
+      ],
+      "procesos_evalautivos": [
+        {
+          "titulo_del_proceso": "Evacuación de Incendio",
+          "fecha": "2024-06-01",
+          "listado_de_estudiantes": [
+            {"nombre": "Juan", "apellido": "Pérez", "nota": 10},
+            {"nombre": "María", "apellido": "Gómez", "nota": 9},
+            {"nombre": "Carlos", "apellido": "Rodríguez", "nota": 10}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Historia",
+      "curso": "2B",
+      "nivel": "Secundario",
+      "contenidos": [
+        {
+          "icono": "book",
+          "titulo": "Revolución Francesa",
+          "fecha": "2024-04-01",
+          "descripcion": "Estudio de los eventos clave de la Revolución Francesa."
+        },
+        {
+          "icono": "folder",
+          "titulo": "Independencia de América",
+          "fecha": "2024-04-01",
+          "descripcion": "Proceso de independencia de las colonias americanas."
+        }
+      ],
+      "estudiantes": [
+        {"nombre": "Laura", "apellido": "Mendoza"},
+        {"nombre": "Sofía", "apellido": "López"},
+        {"nombre": "Javier", "apellido": "Martínez"}
+      ],
+      "asistencia": [
+        {
+          "fecha": "2024-05-02",
+          "presentes": 28,
+          "ausentes": 1,
+          "alumnos_ausentes": ["Javier Martínez"]
+        }
+      ],
+      "comunicados": [
+        {
+          "titulo": "Trabajo Práctico",
+          "fecha": "2024-05-12",
+          "dirigido_a": "todos",
+          "descripcion": "Entrega del trabajo práctico sobre la Revolución Francesa."
+        }
+      ],
+      "temas": [
+        {
+          "nro_de_clase": 3,
+          "fecha": "2024-04-03",
+          "tipo_de_clase": "enseñanza-aprendizaje",
+          "contenidos_vistos": "Causas de la Revolución Francesa",
+          "actividades": "Debate en clase."
+        }
+      ],
+      "procesos_evalautivos": [
+        {
+          "titulo_del_proceso": "Evacuación por Sismo",
+          "fecha": "2024-06-02",
+          "listado_de_estudiantes": [
+            {"nombre": "Laura", "apellido": "Mendoza", "nota": 10},
+            {"nombre": "Sofía", "apellido": "López", "nota": 8},
+            {"nombre": "Javier", "apellido": "Martínez", "nota": 7}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Ciencias Naturales",
+      "curso": "3C",
+      "nivel": "Primario",
+      "contenidos": [
+        {
+          "icono": "quiz",
+          "titulo": "El Cuerpo Humano",
+          "fecha": "2024-04-01",
+          "descripcion": "Anatomía básica y funciones principales del cuerpo humano."
+        },
+        {
+          "icono": "folder",
+          "titulo": "Ecosistemas",
+          "fecha": "2024-04-01",
+          "descripcion": "Estudio de diferentes ecosistemas y su importancia."
+        }
+      ],
+      "estudiantes": [
+        {"nombre": "Pedro", "apellido": "García"},
+        {"nombre": "Ana", "apellido": "López"},
+        {"nombre": "Miguel", "apellido": "Fernández"}
+      ],
+      "asistencia": [
+        {
+          "fecha": "2024-05-03",
+          "presentes": 30,
+          "ausentes": 0,
+          "alumnos_ausentes": []
+        }
+      ],
+      "comunicados": [
+        {
+          "titulo": "Salida de Campo",
+          "fecha": "2024-05-15",
+          "dirigido_a": "todos",
+          "descripcion": "Salida de campo al parque natural para observar ecosistemas."
+        }
+      ],
+      "temas": [
+        {
+          "nro_de_clase": 2,
+          "fecha": "2024-04-02",
+          "tipo_de_clase": "enseñanza-aprendizaje",
+          "contenidos_vistos": "Partes del Cuerpo Humano",
+          "actividades": "Dibujo y etiquetado de un esquema del cuerpo humano."
+        }
+      ],
+      "procesos_evalautivos": [
+        {
+          "titulo_del_proceso": "Simulacro de Evacuación",
+          "fecha": "2024-06-03",
+          "listado_de_estudiantes": [
+            {"nombre": "Pedro", "apellido": "García", "nota": 9},
+            {"nombre": "Ana", "apellido": "López", "nota": 9},
+            {"nombre": "Miguel", "apellido": "Fernández", "nota": 10}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Lengua y Literatura",
+      "curso": "4D",
+      "nivel": "Secundario",
+      "contenidos": [
+        {
+          "icono": "assignment",
+          "titulo": "Géneros Literarios",
+          "fecha": "2024-04-01",
+          "descripcion": "Estudio de los diferentes géneros literarios."
+        },
+        {
+          "icono": "book",
+          "titulo": "Gramática Avanzada",
+          "fecha": "2024-04-01",
+          "descripcion": "Estructuras gramaticales complejas y su uso."
+        }
+      ],
+      "estudiantes": [
+        {"nombre": "Lucía", "apellido": "Ruiz"},
+        {"nombre": "Diego", "apellido": "Pérez"},
+        {"nombre": "Marta", "apellido": "Hernández"}
+      ],
+      "asistencia": [
+        {
+          "fecha": "2024-05-04",
+          "presentes": 27,
+          "ausentes": 2,
+          "alumnos_ausentes": ["Lucía Ruiz", "Diego Pérez"]
+        }
+      ],
+      "comunicados": [
+        {
+          "titulo": "Taller de Poesía",
+          "fecha": "2024-05-20",
+          "dirigido_a": "grupo de estudiantes",
+          "descripcion": "Se invita a los interesados al taller de poesía."
+        }
+      ],
+      "temas": [
+        {
+          "nro_de_clase": 5,
+          "fecha": "2024-04-05",
+          "tipo_de_clase": "enseñanza-aprendizaje",
+          "contenidos_vistos": "Análisis de Textos Literarios",
+          "actividades": "Lectura y análisis de poemas."
+        }
+      ],
+      "procesos_evalautivos": [
+        {
+          "titulo_del_proceso": "Evacuación por Inundación",
+          "fecha": "2024-06-04",
+          "listado_de_estudiantes": [
+            {"nombre": "Lucía", "apellido": "Ruiz", "nota": 8},
+            {"nombre": "Diego", "apellido": "Pérez", "nota": 7},
+            {"nombre": "Marta", "apellido": "Hernández", "nota": 9}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nombre": "Educación Física",
+      "curso": "5E",
+      "nivel": "Primario",
+      "contenidos": [
+        {
+          "icono": "quiz",
+          "titulo": "Juegos y Deportes",
+          "fecha": "2024-04-01",
+          "descripcion": "Introducción a diferentes juegos y deportes."
+        },
+        {
+          "icono": "folder",
+          "titulo": "Ejercicios de Calentamiento",
+          "fecha": "2024-04-01",
+          "descripcion": "Importancia y tipos de ejercicios de calentamiento."
+        }
+      ],
+      "estudiantes": [
+        {"nombre": "Antonio", "apellido": "Díaz"},
+        {"nombre": "Sofía", "apellido": "Martínez"},
+        {"nombre": "Elena", "apellido": "González"}
+      ],
+      "asistencia": [
+        {
+          "fecha": "2024-05-05",
+          "presentes": 29,
+          "ausentes": 1,
+          "alumnos_ausentes": ["Elena González"]
+        }
+      ],
+      "comunicados": [
+        {
+          "titulo": "Competencia Interescolar",
+          "fecha": "2024-05-25",
+          "dirigido_a": "todos",
+          "descripcion": "Participación en la competencia interescolar de atletismo."
+        }
+      ],
+      "temas": [
+        {
+          "nro_de_clase": 4,
+          "fecha": "2024-04-04",
+          "tipo_de_clase": "enseñanza-aprendizaje",
+          "contenidos_vistos": "Reglas del Fútbol",
+          "actividades": "Partido amistoso de fútbol."
+        }
+      ],
+      "procesos_evalautivos": [
+        {
+          "titulo_del_proceso": "Evacuación por Emergencia Médica",
+          "fecha": "2024-06-05",
+          "listado_de_estudiantes": [
+            {"nombre": "Antonio", "apellido": "Díaz", "nota": 10},
+            {"nombre": "Sofía", "apellido": "Martínez", "nota": 9},
+            {"nombre": "Elena", "apellido": "González", "nota": 8}
+          ]
+        }
+      ]
+    }
+  ]
+  
